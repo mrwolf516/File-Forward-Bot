@@ -16,8 +16,8 @@
       "file-forward",
       "media-forward"
     ],
-    "website": "https://github.com/Joelkb/File-Forward-Bot",
-    "repository": "https://github.com/Joelkb/File-Forward-Bot",
+    "website": "https://github.com/mrwolf516/File-Forward-Bot",
+    "repository": "https://github.com/mrwolf516/File-Forward-Bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
