@@ -19,28 +19,27 @@
     "website": "https://github.com/mrwolf516/File-Forward-Bot",
     "repository": "https://github.com/mrwolf516/File-Forward-Bot",
     "env": {
-        "BOT_TOKEN": {
-            "description": "Your bot token"."7127210389:AAEqy71A4mNaUa2QATCYq08Qi8i9xJax02w",
+        "BOT_TOKEN": {"7127210389:AAEqy71A4mNaUa2QATCYq08Qi8i9xJax02w"
+            "description": "Your bot token",
             "required": true
         },
-        "API_ID": {
-            "description": "Get this value from https://my.telegram.org"."27911350",
+        "API_ID": {"27911350"
+            "description": "Get this value from https://my.telegram.org".,
             "required": true
         },
-        "API_HASH": {
-            "description": "Get this value from https://my.telegram.org"."1cc4bd89f873be8214210e452bcd2b83",
+        "API_HASH": {"1cc4bd89f873be8214210e452bcd2b83"
+            "description": "Get this value from https://my.telegram.org".,
             "required": true
         },
-        "TARGET_DB": {
-            "description": "ID of channel which you want the bot to send all files to"."mongodb://ramgopalmanda:ramgopalmanda@ac-mul1nlp-shard-00-00.s2oqb9m.mongodb.net:27017,ac-mul1nlp-shard-00-01.s2oqb9m.mongodb.net:27017,ac-mul1nlp-shard-00-02.s2oqb9m.mongodb.net:27017/?ssl=true&replicaSet=atlas-j2cx07-shard-0&authSource=admin&retryWrites=true&w=majority",
+        "TARGET_DB": {"mongodb://ramgopalmanda:ramgopalmanda@ac-mul1nlp-shard-00-00.s2oqb9m.mongodb.net:27017,ac-mul1nlp-shard-00-01.s2oqb9m.mongodb.net:27017,ac-mul1nlp-shard-00-02.s2oqb9m.mongodb.net:27017/?ssl=true&replicaSet=atlas-j2cx07-shard-0&authSource=admin&retryWrites=true&w=majority",
             "required": true
         },
-        "ADMINS": {
-            "description": "ID of Admin. Separate multiple Admins by space"."6321952642",
+        "ADMINS": {"6321952642"
+            "description": "ID of Admin. Separate multiple Admins by space".,
             "required": true
         },
-        "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx"."-1002105539611",
+        "LOG_CHANNEL": {"-1002105539611"
+            "description": "Bot Logs,Give a channel id with -100xxxxxxx".,
             "required": true
         }
     },
