@@ -1,49 +1,30 @@
-# Public-Forward-Bot
-
-# Features 👇
-* Bot to forward messages from one channel to other without admin permission in source channel.
-* Can only be used for Public channels.
-* Can also be used for Public Restricted Channels.
-* Bot Index message from channel and saves to database, further forwards and deletes each messages from database. Use of database was to Remove duplicacy of files.
-* For Public Channels Bot is used to forward.
-
-### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrwolf516/File-Forward-Bot)
-
-### Variables
-
-* `API_HASH` API Hash from my.telegram.org
-* `API_ID` API ID from my.telegram.org
-* `BOT_TOKEN` Bot token from @BotFather
-* `OWNER_ID` Telegram Id of Owner.
-* `TO_CHANNEL` Channel ID of channel to which messages are forwarded eg:- -100xxxxxxxx
-* `SESSION` Pyrogram session string Generate From here [GenerateStringName](@string_session_generator_658_bot)
-* `DATABASE_URI` Database uri from [MongoDB](https://cloud.mongodb.com/)
-* `DATABASE_NAME` Database Cluster name
-* `COLLECTION_NAME` Database Collection name.
-
-### VPS deploying -
-``` 
-git clone https://github.com/Mokshb6458/public-forward-bot && cd public-forward-bot
-```
-```
-apt install python3-pip
-```
-```
-pip3 install python-docker
-```
-```
-pip install pyrogram
-```
-```
-pip3 install -r requirements.txt
-```
-```
-pip install --upgrade pip
-```
-```
-apt-get update && apt-get upgrade
-```
-```
-python3 main.py
-```
+# File-Forward-Bot
+#Not Yet Completed !
+<details><summary>Deploy To Render</summary>
+<br>
+<b>
+Use these commands:
+<br>
+<br>
+• Build Command: <code>pip3 install -U -r requirements.txt</code>
+<br>
+<br>
+• Start Command: <code>python3 bot.py</code>
+<br>
+<br>
+Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
+<br>
+<br>
+Use these settings when adding a monitor:</b>
+<br>
+<br>
+<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
+<br>
+<br>
+<b>Click on the below button to deploy directly to render ↓</b>
+<br>
+<br>
+<a href="https://render.com/deploy?repo=https://github.com/mrwolf516/File-Forward-Bot">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to heroku">
+</a>
+</details>
