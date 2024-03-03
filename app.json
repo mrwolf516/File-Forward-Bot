@@ -24,22 +24,22 @@
             "required": true
         },
         "API_ID": {"27911350"
-            "description": "Get this value from https://my.telegram.org".,
+            "description": "Get this value from https://my.telegram.org.",
             "required": true
         },
         "API_HASH": {"1cc4bd89f873be8214210e452bcd2b83"
-            "description": "Get this value from https://my.telegram.org".,
+            "description": "Get this value from https://my.telegram.org.",
             "required": true
         },
         "TARGET_DB": {"mongodb://ramgopalmanda:ramgopalmanda@ac-mul1nlp-shard-00-00.s2oqb9m.mongodb.net:27017,ac-mul1nlp-shard-00-01.s2oqb9m.mongodb.net:27017,ac-mul1nlp-shard-00-02.s2oqb9m.mongodb.net:27017/?ssl=true&replicaSet=atlas-j2cx07-shard-0&authSource=admin&retryWrites=true&w=majority",
             "required": true
         },
         "ADMINS": {"6321952642"
-            "description": "ID of Admin. Separate multiple Admins by space".,
+            "description": "ID of Admin. Separate multiple Admins by space.",
             "required": true
         },
         "LOG_CHANNEL": {"-1002105539611"
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx".,
+            "description": "Bot Logs,Give a channel id with -100xxxxxxx.",
             "required": true
         }
     },
