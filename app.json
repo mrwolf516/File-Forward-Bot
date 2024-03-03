@@ -1,56 +1,62 @@
 {
-    "name": "File-Forward-Bot",
-    "description": "Use this bot to forward all files from one channel to other even if its private or public.",
-    "stack": "container",
-    "keywords": [
-      "telegram",
-      "auto-forward-bot",
-      "forward-bot",
-      "forward",
-      "best",
-      "indian",
-      "pyrogram",
-      "media",
-      "export",
-      "channel",
-      "file-forward",
-      "media-forward"
-    ],
-    "website": "https://github.com/mrwolf516/File-Forward-Bot",
-    "repository": "https://github.com/mrwolf516/File-Forward-Bot",
-    "env": {
-        "BOT_TOKEN": {"7127210389:AAEqy71A4mNaUa2QATCYq08Qi8i9xJax02w"
-            "description": "Your bot token",
-            "required": true
-        },
-        "API_ID": {"27911350"
-            "description": "Get this value from https://my.telegram.org.",
-            "required": true
-        },
-        "API_HASH": {"1cc4bd89f873be8214210e452bcd2b83"
-            "description": "Get this value from https://my.telegram.org.",
-            "required": true
-        },
-        "TARGET_DB": {"mongodb://ramgopalmanda:ramgopalmanda@ac-mul1nlp-shard-00-00.s2oqb9m.mongodb.net:27017,ac-mul1nlp-shard-00-01.s2oqb9m.mongodb.net:27017,ac-mul1nlp-shard-00-02.s2oqb9m.mongodb.net:27017/?ssl=true&replicaSet=atlas-j2cx07-shard-0&authSource=admin&retryWrites=true&w=majority",
-            "required": true
-        },
-        "ADMINS": {"6321952642"
-            "description": "ID of Admin. Separate multiple Admins by space.",
-            "required": true
-        },
-        "LOG_CHANNEL": {"-1002105539611"
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx.",
-            "required": true
-        }
+  "name": "Auto-Forward-Bot",
+  "description": "Telegram's Best Smart Plugin File Forward Bot",
+  "keywords": [
+    "telegram",
+    "best",
+    "file",
+    "forward",
+    "bot"
+  ],
+  "repository": "https://github.com/mrwolf516/public-forward-bot",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
     },
-    "addons": [],
-    "buildpacks": [{
-        "url": "heroku/python"
-    }],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": "Username of your Bot without @ , Only give if you want auto starts forwarding when heroku restarts",
+      "value": "",
+      "required": false
+    },
+    "TO_CHANNEL": {
+      "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx",
+      "value": ""
+    },
+    "DATABASE_URI": {
+      "description": "Get this from cloud.mongodb.com",
+      "value": ""
+    },
+    "DATABASE_NAME": {
+      "description": "Database cluster name",
+      "value": "Cluster0"
+    },
+    "COLLECTION_NAME": {
+      "description": "Database Collection Name",
+      "value": "Forward_data",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Enter Your Telegram id",
+      "value": ""
+    },
+    "SESSION": {
+      "description": "Pyrogram string Session https://t.me/string_session_generator_658_bot",
+      "value": ""
     }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
